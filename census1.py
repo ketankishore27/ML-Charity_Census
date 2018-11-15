@@ -277,7 +277,7 @@ y_pred1 = oclassifier.predict(X_test_reduced)
 
 cm1 = confusion_matrix(y_test, y_pred)
 
- ----------------------> Applying the Test Set transformations --------------------------
+# ----------------------> Applying the Test Set transformations --------------------------
 
 data_test = pd.read_csv('test_census.csv')
 feature_raw1 = data_test
